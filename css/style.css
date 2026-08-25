@@ -98,7 +98,7 @@ img {
 }
 
 /* Quando passar o mouse sobre E quando o
-elemento a (anchor) tiver a classe menu-atual */
+elemento A (anchor) tiver a classe menu-atual */
 .menu a:hover, .menu a.menu-atual {
     background-color: #244b45;
     color: #ffffff;
@@ -125,7 +125,12 @@ elemento a (anchor) tiver a classe menu-atual */
 
 /* --- PÁGINAS INTERNAS --- */
 
-/* .cabecalho-pagina {} */
+.cabecalho-pagina {
+    padding: 55px 0;
+    background-color: #ddeee7;
+    border-bottom: solid 5px #f28c79;
+    text-align: center;
+}
 
 
 /* --- TEXTOS E LINKS --- */
@@ -154,29 +159,26 @@ elemento a (anchor) tiver a classe menu-atual */
     background-color: #ffffff;
 }
 
-/* .link-destaque {} */
+.link-destaque {
+    color: #d86654;
+    font-weight: 700;
+    text-decoration: none;
+}
 
-/* .link-destaque:hover {} */
+.link-destaque:hover {
+    text-decoration: underline;
+}
 
 
 /* --- SEÇÕES E CARTÕES --- */
 
 .secao {
     padding: 65px 0;
-
-    /* border: solid 2px blue; */
 }
 
 /* .secao-clara {} */
 
-.cartao {
-    min-height: 265px;
-    /* AJUSTAR A ALTURA */
-    padding: 28px;
-}
-
-/* .cartao, .cartao-produto { */
-.cartao {
+.cartao, .cartao-produto {
     display: inline-block;
     width: 30%;
     margin: 1.5%;
@@ -185,6 +187,26 @@ elemento a (anchor) tiver a classe menu-atual */
     border-radius: 16px;
     vertical-align: top;
 }
+
+.cartao {
+    min-height: 265px;
+    /* AJUSTAR A ALTURA */
+    padding: 28px;
+}
+
+.cartao-produto {
+    overflow: hidden;
+}
+
+.cartao-produto img {
+    width: 100%;
+    border-bottom: solid 5px #f28c79;
+}
+
+.conteudo-cartao {
+    padding: 24px;
+}
+
 
 .icone {
     margin-bottom: 16px;
