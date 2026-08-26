@@ -10,16 +10,12 @@ body {
     color: #2f3437;
     background-color: #fffaf4;
     font-family: Arial, Helvetica, sans-serif;
-    /* line-height: 1.6; */
-    /* RETIRAR */
 }
 
 h1, h2, h3 {
     margin-top: 0;
     color: #244b45;
     font-family: 'Trebuchet MS', Arial, sans-serif;
-    /* line-height: 1.2; */
-    /* RETIRAR */
 }
 
 h1 { font-size: 42px; }
@@ -31,7 +27,6 @@ h3 { font-size: 21px };
 p { margin-top: 0; }
 
 img {
-    /* display: block; */
     max-width: 100%;
 }
 
@@ -44,6 +39,7 @@ img {
 .centro {
     text-align: center;
 }
+
 
 /* --- TOPO e LOGOTIPO --- */
 
@@ -169,6 +165,7 @@ elemento A (anchor) tiver a classe menu-atual */
     text-decoration: underline;
 }
 
+
 /* --- ÍCONES --- */
 i {
     font-size: 48px;
@@ -198,8 +195,7 @@ i {
 }
 
 .cartao {
-    min-height: 265px;
-    /* AJUSTAR A ALTURA */
+    min-height: 285px;
     padding: 28px;
 }
 
@@ -215,7 +211,6 @@ i {
 .conteudo-cartao {
     padding: 24px;
 }
-
 
 .icone {
     margin-bottom: 16px;
@@ -240,6 +235,7 @@ i {
     vertical-align: middle;
 }
 
+
 /* --- RODAPÉ --- */
 
 .rodape {
@@ -248,10 +244,6 @@ i {
     text-align: center;
     padding: 38px 20px;
 }
-
-/* .rodape p {
-    margin-bottom: 8px;
-} */
 
 .rodape img {
     width: 48px;
