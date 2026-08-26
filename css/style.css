@@ -183,7 +183,9 @@ i {
     padding: 65px 0;
 }
 
-/* .secao-clara {} */
+.secao-clara {
+    background-color: #ffffff;
+}
 
 .cartao, .cartao-produto {
     display: inline-block;
@@ -220,6 +222,23 @@ i {
     font-size: 36px;
 }
 
+
+/* --- PÁGINA SOBRE --- */
+
+.imagem-sobre {
+    display: inline-block;
+    width: 40%;
+    border: solid 6px #ddeee7;
+    border-radius: 16px;
+    vertical-align: middle;
+}
+
+.texto-sobre {
+    display: inline-block;
+    width: 52%;
+    margin-left: 5%;
+    vertical-align: middle;
+}
 
 /* --- RODAPÉ --- */
 
