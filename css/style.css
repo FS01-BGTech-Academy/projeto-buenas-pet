@@ -169,6 +169,13 @@ elemento A (anchor) tiver a classe menu-atual */
     text-decoration: underline;
 }
 
+/* --- ÍCONES --- */
+i {
+    font-size: 48px;
+    color: #f28c79;
+    margin-bottom: 16px;
+}
+
 
 /* --- SEÇÕES E CARTÕES --- */
 
